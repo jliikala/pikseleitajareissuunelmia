@@ -44,7 +44,7 @@ module.exports = (eleventyConfig) => {
       imgOptions: {
         widths: [720, 1080, 1440, 1800],
         urlPath: '/images/',
-        outputDir: (process.env.NODE_ENV === 'production') ? './build/images' : './public/images'
+        outputDir: (process.env.NODE_ENV === 'production') ? './build/images' : './dist/images'
       },
       globalAttributes: {
         loading: 'lazy',
@@ -102,7 +102,7 @@ module.exports = (eleventyConfig) => {
     dir: {
       input: './site',
       includes: `_themes/${theme}/layouts`,
-      output: './public'
+      output: './dist'
     }
   };
 };

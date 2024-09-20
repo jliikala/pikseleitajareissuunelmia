@@ -9,7 +9,7 @@ package-lock.json
 pnpm-lock.yaml
 
 # This project specific files & directories
-public/
+dist/
 build/
 .env*
 site/_themes/hyde/css/styles.min.css

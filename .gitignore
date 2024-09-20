@@ -10,6 +10,5 @@ pnpm-lock.yaml
 
 # This project specific files & directories
 dist/
-build/
 .env*
 site/_themes/hyde/css/styles.min.css

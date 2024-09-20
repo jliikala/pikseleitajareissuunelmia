@@ -102,7 +102,7 @@ module.exports = (eleventyConfig) => {
     dir: {
       input: './site',
       includes: `_themes/${theme}/layouts`,
-      output: './dist'
+      output: 'dist'
     }
   };
 };

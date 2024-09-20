@@ -1,5 +1,5 @@
-@import "./font-abril-fatface.css";
-@import "./font-pt-sans.css";
+@import "./font-open-sans.css";
+@import "./font-tektur.css";
 
 @import "./poole.css";
 @import "./hyde.css";
@@ -28,3 +28,10 @@ code {color: #b04751;}        /* darken(#bf616a, 8%) */
 /* As base-16 colors had to be reset */
 .theme-base-0b .sidebar {background-color: #690900;}
 .theme-base-0b .content a, .theme-base-0b .related-posts li a:hover {color: #690900;}
+
+/* Pikseleitä ja reissu-unelmia blogin tyylittelyt */
+
+.sidebar {
+  background: url(https://images.unsplash.com/photo-1725462566776-64eb9548e0bc?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center;
+  background-size: cover;
+}

@@ -32,26 +32,25 @@
     "theme": "hyde"
   },
   "devDependencies": {
-    "@11ty/eleventy": "2.0.0",
-    "concurrently": "^7.6.0",
-    "dayjs": "^1.11.7",
-    "dotenv": "^16.0.3",
-    "fast-glob": "^3.2.12",
-    "highlight.js": "^11.7.0",
-    "html-minifier": "^4.0.0",
-    "markdown-it": "^13.0.1",
-    "markdown-it-attrs": "^4.1.6",
-    "markdown-it-eleventy-img": "^0.10.0",
+    "@11ty/eleventy": "^2.0.1",
+    "concurrently": "^9.0.1",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.5",
+    "fast-glob": "^3.3.2",
+    "highlight.js": "^11.10.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-attrs": "^4.2.0",
+    "markdown-it-eleventy-img": "^0.10.2",
     "markdown-it-emoji": "^2.0.2",
     "markdown-it-link-attributes": "^4.0.1",
-    "postcss": "^8.4.21",
-    "postcss-cli": "^10.1.0",
+    "postcss": "^8.4.47",
+    "postcss-cli": "^11.0.0",
     "postcss-csso": "^6.0.1",
-    "postcss-import": "^15.1.0",
+    "postcss-import": "^16.1.0",
     "postcss-url": "^10.1.3"
   },
   "dependencies": {
-    "@fontsource/abril-fatface": "^4.5.9",
-    "@fontsource/pt-sans": "^4.5.11"
+    "@fontsource-variable/open-sans": "^5.1.0",
+    "@fontsource-variable/tektur": "^5.1.0"
   }
 }

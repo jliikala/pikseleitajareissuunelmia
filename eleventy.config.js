@@ -84,29 +84,11 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addCollection('pages', (collectionApi) => collectionApi.getFilteredByGlob('./site/pages/**/*.md'));
   eleventyConfig.addCollection('posts', (collectionApi) => collectionApi.getFilteredByGlob('./site/posts/**/*.md'));
 
-
-  if (process.env.NODE_ENV === 'production') {
-
-    // Transform : html-minifier
-    eleventyConfig.addTransform('html-minify', async (content, outputPath) => {
-      if (outputPath && /(\.html|\.xml)$/.test(outputPath)) {
-        return require('html-minifier').minify(content, {
-          useShortDoctype: true,
-          minifyJS: true,
-          collapseWhitespace: true,
-          keepClosingSlash: true
-        });
-      }
-      return content;
-    });
-
-  }
-
-
   // Passthrough
   if (process.env.NODE_ENV === 'production') eleventyConfig.addPassthroughCopy({ 'site/static': '.' }); // Only one per destination folder, next is better for dev
   eleventyConfig.addPassthroughCopy({ [`site/_themes/${theme}/static`]: '.' });
-  eleventyConfig.addPassthroughCopy({ 'node_modules/@fontsource/{abril-fatface,pt-sans}/files/{abril-fatface,pt-sans}-latin-{400,700}*.woff2': 'css/files' });
+  eleventyConfig.addPassthroughCopy({'node_modules/@fontsource-variable/open-sans/files/open-sans-latin*.woff2': 'css/files' });
+  eleventyConfig.addPassthroughCopy({'node_modules/@fontsource-variable/tektur/files/tektur-latin*.woff2': 'css/files' });
   eleventyConfig.setServerPassthroughCopyBehavior('passthrough');
 
   // Globals

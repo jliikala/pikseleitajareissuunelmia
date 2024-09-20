@@ -1,7 +1,7 @@
 module.exports = {
-  title: "ECBS",
-  tagline: "Eleventy Classic Blog Starter",
-  url: process.env.URL || 'https://ecbs.com',
+  title: "Pikseleitä ja reissu-unelmia",
+  tagline: "Erään devaajan blogi.",
+  url: process.env.URL || 'https://juhaliikala.fi',
   time: Date.now(),
   locale: "en-GB",
 };

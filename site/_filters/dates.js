@@ -7,7 +7,7 @@ dayjs
 
 const
   dayjsLocales = { // dayjs sometimes don't use the right format!
-    'en-GB': 'en-gb',
+    'fi-FI': 'fi',
     // 'en-US': 'en',
   };
 

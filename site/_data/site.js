@@ -3,5 +3,5 @@ module.exports = {
   tagline: "Erään devaajan blogi.",
   url: process.env.URL || 'https://juhaliikala.fi',
   time: Date.now(),
-  locale: "en-GB",
+  locale: "fi-FI",
 };

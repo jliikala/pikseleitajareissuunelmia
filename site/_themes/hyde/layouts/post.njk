@@ -8,7 +8,7 @@
     </article>
 
     <div class="related">
-      <h2>Lisää postauksia</h2>
+      {%- if collections.posts | length > 1 -%}<h2>Lisää postauksia</h2>
       <ul class="related-posts">
         {%- for post in collections.posts | reverse %}
         {%- if post.url != page.url %}
@@ -16,5 +16,6 @@
         {%- endif %}
         {%- endfor %}
       </ul>
+      {%- endif -%}
     </div>
 {% endblock %}

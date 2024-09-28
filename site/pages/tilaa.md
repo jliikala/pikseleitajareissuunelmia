@@ -4,5 +4,5 @@ title: "Tilaa päivitykset"
 ---
 Voit seurailla tätä blogia halutessasi kahdella tapaa:
 
-* Uutiskirjeen kautta sähköpostilla (piakkoin)
-* RSS-syötteen välityksellä (piakkoin)
+* [RSS-syötteen välityksellä](https://juhaliikala.fi/feeds.xml)
+* Uutiskirjeen kautta sähköpostilla (piakkoin ehkäpä?)

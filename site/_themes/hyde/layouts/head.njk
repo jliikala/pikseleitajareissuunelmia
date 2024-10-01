@@ -5,9 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="generator" content="{{ eleventy.generator }}" built="{{ build.time | dateISO }}">
 
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:locale" content="{{ site.locale }}">
+  <meta property="og:title" content="{{ title + ' | ' if title }}{{ site.title }}">
+  <meta property="og:description" content="{% if content %}{{ content | excerpt | safe }}{% else %}{{ site.tagline }}{% endif %}">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1727344954274-76782f8b0bdb?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+  <meta property="og:site_name" content="Pikseleitä ja Reissu-Unelmia Blogi">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ title + ' | ' if title }}{{ site.title }}">
+  <meta name="twitter:description" content="{% if content %}{{ content | excerpt | safe }}{% else %}{{ site.tagline }}{% endif %}">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1727344954274-76782f8b0bdb?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
   <link rel="shortcut icon" href="/images/favicon-32x32.png" sizes="32x32">
   <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
 
   {% if isProduction %}<style>{% include "../css/styles.min.css" %}</style>{% else %}<link rel="stylesheet" href="/css/styles.min.css">{% endif %}
-  {# <link rel="alternate" type="application/rss+xml" title="RSS" href="/feeds.xml"> #}
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feeds.xml">
 </head>

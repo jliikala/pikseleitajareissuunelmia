@@ -6,4 +6,4 @@ Fronttidevaaja ja pikselinviilaaja Oulusta. Touhuillut nettisivujen ja sovellust
 
 Tervetuloa blogiin! 👋
 
-Somekanavissa löydät allekirjoittaneen mm. [Threadsista](https://www.threads.net/@juhaliikala), [Instagramista](https://www.instagram.com/juhaliikala/) ja [Micro.blogista](https://micro.blog/juha).
+Somekanavissa löydät allekirjoittaneen mm. [Threadsista](https://www.threads.net/@juhaliikala), [Instagramista](https://www.instagram.com/juhaliikala/) ja [Micro.blogista](https://micro.blog/juha). Englanninkielinen blogi löytyy osoitteesta [micro.juhaliikala.com](https://micro.juhaliikala.com/).
